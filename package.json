@@ -1,0 +1,36 @@
+{
+  "name": "cursotypescript",
+  "version": "1.0.0",
+  "description": "Curso TS",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc_v": "tsc -v",
+    "tslint_v": "tslint -v",
+    "ts-node": "ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankvjb/CursoTypescript.git"
+  },
+  "keywords": [
+    "Typescript",
+    "TS",
+    "JS"
+  ],
+  "author": "Frank Julca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankvjb/CursoTypescript/issues"
+  },
+  "homepage": "https://github.com/frankvjb/CursoTypescript#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
+  }
+}

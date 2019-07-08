@@ -1,3 +1,8 @@
 # CursoTypescript
 
-Holaaaaaaa
+## Creación del entorno ##
+
+- Navegador
+- VSC
+- Git
+- Github

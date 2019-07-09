@@ -1,5 +1,5 @@
 {
-  "name": "cursotypescript",
+  "name": "ts_indra",
   "version": "1.0.0",
   "description": "Curso TS",
   "main": "index.js",
@@ -12,23 +12,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frankvjb/CursoTypescript.git"
+    "url": "git+https://github.com/IconoTraining/ts_indra.git"
   },
   "keywords": [
-    "Typescript",
+    "TypeScript",
     "TS",
     "JS"
   ],
-  "author": "Frank Julca",
+  "author": "Alejandro Cerezo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/frankvjb/CursoTypescript/issues"
+    "url": "https://github.com/IconoTraining/ts_indra/issues"
   },
-  "homepage": "https://github.com/frankvjb/CursoTypescript#readme",
+  "homepage": "https://github.com/IconoTraining/ts_indra#readme",
   "dependencies": {
     "bootstrap": "^4.3.1"
   },
   "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
     "ts-node": "^8.3.0",
     "tslint": "^5.18.0",
     "typescript": "^3.5.2"

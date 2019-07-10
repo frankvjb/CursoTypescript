@@ -58,3 +58,15 @@ Curso de TypeScrip para Indra (Minsait)
 - Operadores rest y spread. Destructuring
 - Modulos. Diferencias entre Node (CommonJS) y ES6
 - Arrays. Formas de iteración. Bucle for-of en ES6
+
+- Métodos de Arrays y de objetos envolventes String y Number
+- Funciones callbacks
+- Funciones Anidadas. Clousures. Funciones Autoinvocdas.
+- Objetos literales. Funciones constructoras. Prototipo.
+- Métodos y propiedades estatícos.
+- Ambitos de visibilidad. Patrones.
+- Objetos literales: accesores getters / setters (ES5)
+- Relaciones de asociación, dependencia y herencia (extensión)
+- ES6: class, extends, super, static (Siguen siendo prototipos)
+- Asincronía. Ejecución mono hilo y bucle eventos.
+- Callback. Promesas (ES6). Async/await (ES2017/ES8)

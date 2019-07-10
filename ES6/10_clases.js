@@ -1,9 +1,14 @@
 // ES6 aparecen las "clases"
 
 class Persona {
+    
   constructor(nombre = '', edad = 0) {
       this.nombre = nombre
       this.edad = edad
+  }
+
+  static pensar() {
+      console.log('Pienso...')
   }
 
   saludar (otro = 'amigo') {
@@ -22,6 +27,7 @@ delete p2.edad
 
 console.log(p1)
 console.log(p2)
+console.log(Persona.pensar())
 
 
 class Alumno extends Persona {

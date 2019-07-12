@@ -70,3 +70,12 @@ Curso de TypeScrip para Indra (Minsait)
 - ES6: class, extends, super, static (Siguen siendo prototipos)
 - Asincronía. Ejecución mono hilo y bucle eventos.
 - Callback. Promesas (ES6). Async/await (ES2017/ES8)
+
+## TypeScript ##
+
+- Similitud con ES
+- Tipos. Inferencia de tipos. Alias
+- Clases. Declaración de prpiedades. Ámbitos de visivilidad.
+- Clases Abstractas e Interfaces
+- Modulos ES6. Uso real en la Web
+- Tipos. Tipos Unión. Type Guards

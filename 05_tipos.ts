@@ -72,3 +72,41 @@
   let id: ID;
   let nombre: NombrePropio;
 }
+
+// Funciones
+
+// method signature
+
+interface Date {
+  toString(): string;
+  setTime(time: number): number;
+  // ...
+}
+
+// Function type literals 
+
+interface Array<T> {
+  sort(compareFn?: (a: T, b: T) => number): this;
+  // ...
+} 
+
+type FunctionType1 = (x: string, y: number) => number;
+// (x: string, y: number) => number
+
+// object type literals
+
+interface RegExpConstructor {
+  // Call signatures
+  (pattern: RegExp): RegExp;
+  (pattern: string, flags?: string): RegExp;
+
+  // ...
+}
+
+// Enum
+
+enum colors {Rojo = 1, Verde, Azul};
+enum colors0 {Rojo, Verde, Azul};
+
+console.log(colors.Rojo);
+console.log(colors0.Rojo);
